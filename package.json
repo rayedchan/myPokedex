@@ -1,0 +1,26 @@
+{
+  "name": "mypokedex",
+  "version": "1.0.0",
+  "description": "Track your Pokedex progress",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.0",
+    "@types/react": "^19.2.10",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "eslint-config-prettier": "^10.1.8",
+    "typescript": "5.9.3"
+  }
+}
