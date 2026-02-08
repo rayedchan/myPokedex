@@ -1,3 +1,7 @@
+import { db } from "../../db/db";
+import { pokemonTable } from "../../db/schema";
+
 export async function GET(request: Request) {
-  return Response.json({ data: "hello" });
+  const results = await db.select().from(pokemonTable);
+  return Response.json({ results });
 }
